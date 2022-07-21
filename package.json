@@ -1,0 +1,29 @@
+{
+  "name": "harmony_voting_contract",
+  "version": "1.0.0",
+  "description": "Voting contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy_mainnet": "npx hardhat run scripts/deploy.js --network mainnet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.4",
+    "hardhat": "^2.9.3"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@openzeppelin/contracts": "^4.7.1",
+    "@truffle/hdwallet-provider": "^2.0.11",
+    "dotenv": "^16.0.1",
+    "hardhat-contract-sizer": "^2.6.1",
+    "truffle-plugin-verify": "^0.5.26"
+  }
+}
